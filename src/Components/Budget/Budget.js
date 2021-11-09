@@ -7,6 +7,7 @@ import DisplayPurchases from "./../shared/DisplayPurchases";
 import Loading from "./../shared/Loading/Loading";
 import Nav from "./../shared/Nav";
 import "./Budget.css";
+import { connect } from "react-redux";
 
 class Budget extends Component {
   render() {
